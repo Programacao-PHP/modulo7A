@@ -1,0 +1,10 @@
+<clientes> 
+<cliente> 
+    <nome>João Duarte</nome> 
+    <conta_n>123456789</conta_n> 
+</cliente> 
+<cliente> 
+    <nome>Joaquina Silva</nome> 
+    <conta_n>777666555</conta_n> 
+</cliente> 
+</clientes> 

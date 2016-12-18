@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<lista>
+	<bi>
+		<nome>Carlos Serrão</nome>
+		<morada>Lisboa</morada>
+		<filiacao>
+			<pai>Nome do Pai</pai>
+			<mae>Nome da Mae</mae>
+		</filiacao>
+		<arq_id data_emissao="23/09/2006">Lisboa</arq_id>
+		<dt_validade>10/06/2026</dt_validade>
+	</bi>
+	<bi>
+		<nome>Joana Carvalho</nome>
+		<morada>Lisboa</morada>
+		<filiacao>
+			<pai>Nome do Pai</pai>
+			<mae>Nome da Mae</mae>
+		</filiacao>
+		<dt_validade>10/06/2026</dt_validade>
+		<arq_id data_emissao="23/09/2006">Lisboa</arq_id>
+	</bi>
+	<bi>
+		<nome>Pedro Abrunheira</nome>
+		<morada>Lisboa</morada>
+		<filiacao>
+			<pai>Nome do Pai</pai>
+			<mae>Nome da Mae</mae>
+		</filiacao>
+		<dt_validade>10/06/2026</dt_validade>
+		<arq_id data_emissao="23/09/2006">Lisboa</arq_id>
+	</bi>
+</lista>

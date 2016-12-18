@@ -1,0 +1,41 @@
+Este é o apelido carlos  PHP/CLI depois do nome joaquim 
+Mas o argumento inicial (nome do script) é -> D:\wamp\www\caps_PHP6\cli\cli_2.php 
+numero de argumentos transmitidos ao script -> 3 
+estas são as variáveis de ambiente 
+Array
+(
+    [ALLUSERSPROFILE] => C:\Documents and Settings\All Users
+    [APPDATA] => C:\Documents and Settings\marques\Application Data
+    [CLASSPATH] => .;C:\Program Files\Java\jre1.5.0_06\lib\ext\QTJava.zip
+    [CLIENTNAME] => Console
+    [CommonProgramFiles] => C:\Program Files\Common Files
+    [COMPUTERNAME] => MARKKES
+    [ComSpec] => C:\WINDOWS\system32\cmd.exe
+    [FP_NO_HOST_CHECK] => NO
+    [HOMEDRIVE] => K:
+    [HOMEPATH] => \
+    [HOMESHARE] => \\picasso\users1\marques
+    [LOGONSERVER] => \\PICASSO
+    [NUMBER_OF_PROCESSORS] => 2
+    [OPENSSL_CONF] => d:\OpenSSL\bin\openssl.cnf
+    [OS] => Windows_NT
+    [Path] => C:\WINDOWS\SYSTEM32;C:\WINDOWS;C:\WINDOWS\SYSTEM32\WBEM;C:\PROGRAM FILES\COMMON FILES\ROXIO SHARED\DLLSHARED;C:\PROGRAM FILES\ZIPGENIUS 6\;C:\PROGRAM FILES\INTEL\DMIX;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\SSH Communications Security\SSH Secure Shell
+    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH
+    [PROCESSOR_ARCHITECTURE] => x86
+    [PROCESSOR_IDENTIFIER] => x86 Family 15 Model 2 Stepping 9, GenuineIntel
+    [PROCESSOR_LEVEL] => 15
+    [PROCESSOR_REVISION] => 0209
+    [ProgramFiles] => C:\Program Files
+    [PROMPT] => $P$G
+    [QTJAVA] => C:\Program Files\Java\jre1.5.0_06\lib\ext\QTJava.zip
+    [SESSIONNAME] => Console
+    [SystemDrive] => C:
+    [SystemRoot] => C:\WINDOWS
+    [TEMP] => C:\DOCUME~1\marques\LOCALS~1\Temp
+    [TMP] => C:\DOCUME~1\marques\LOCALS~1\Temp
+    [USERDNSDOMAIN] => LOCAL.IPCB.PT
+    [USERDOMAIN] => LOCAL
+    [USERNAME] => marques
+    [USERPROFILE] => C:\Documents and Settings\marques
+    [windir] => C:\WINDOWS
+)

@@ -1,0 +1,9 @@
+BEGIN TRANSACTION;
+CREATE TABLE identific (email TEXT, id INTEGER PRIMARY KEY, nome TEXT, password TEXT);
+INSERT INTO identific VALUES('maria@testsec.pt',1,'Maria','1qa2ws');
+INSERT INTO identific VALUES('manuel@testsec.pt',2,'Manuel','qazwsx');
+INSERT INTO identific VALUES('hugo@testsec.pt',3,'Hugo','qwerty');
+INSERT INTO identific VALUES('Chico@testsec.pt',4,'Chico','asdfg');
+INSERT INTO identific VALUES('Anastacio@test.pt',5,'Anastacio','zxcvbn');
+INSERT INTO identific VALUES('Abel@testsec.pt',6,'Abel','123qwe');
+COMMIT;

@@ -1,0 +1,24 @@
+<?php
+	header ("Content-type: text/vnd.wap.wml");
+	echo "<?xml version=\"1.0\"?>";
+	echo "<!DOCTYPE wml PUBLIC \"-//PHONE.COM//DTD WML 1.1//EN\" \"http://www.phone.com/dtd/wml11.dtd\" >";
+?>
+<wml> 
+    <card id="email1" title="Exemplo de Email"> 
+        <p> 
+        <do type="accept">     
+            <go href="email2.wml" method="post"> 
+            <postfield name="Email" value="$email"/>  
+            <postfield name="Mensagem" value="$message"/>  
+            <postfield name="Titulo" value="$subject"/>  
+            </go> 
+        </do> 
+        Destinatario: 
+        <input title="Email" name="email"/> <br/> 
+        Titulo: 
+        <input title="Titulo" name="subject"/> <br/> 
+        Mensagem: 
+        <input title="Mensagem" name="message"/> <br/> 
+        </p> 
+    </card> 
+</wml> 

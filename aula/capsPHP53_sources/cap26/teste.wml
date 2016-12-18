@@ -1,0 +1,16 @@
+<?php
+	header ("Content-type: text/vnd.wap.wml");
+	echo "<?xml version=\"1.0\"?>";
+	echo "<!DOCTYPE wml PUBLIC \"-//PHONE.COM//DTD WML 1.1//EN\" \"http://www.phone.com/dtd/wml11.dtd\" >";
+	echo "<wml>";
+	echo "<card>";
+	echo "<do type=\"accept\">";
+	echo "<go href=\"#card2\"/>";
+	echo "</do>";
+	echo "<p>Esta e' a primeira aplicacao WML. Este e' o primeiro card. Carregue em OK para passar ao segundo card.</p>";
+	echo "</card>";
+	echo "<card id=\"card2\">";
+	echo "<p>Este e' o segundo card. Carregue em OK para voltar ao primeiro card.</p>";
+	echo "</card>";
+	echo "</wml>";
+?>

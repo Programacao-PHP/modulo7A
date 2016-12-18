@@ -1,0 +1,10 @@
+# impedir o acesso à base de dados SQlitte com as seguintes extensões
+<FilesMatch "\.(sqlite|sqlite2|sqlite3|sq|sq2|sq3|db|sql)$">
+Deny from all
+</FilesMatch>
+
+# - (minus) disable browsing. + (plus) enable browsing
+Options -Indexes
+
+# reading left to right
+DirectoryIndex myStartPage.html index.html index.php

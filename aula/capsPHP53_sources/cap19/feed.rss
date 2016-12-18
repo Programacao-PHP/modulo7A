@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <generator>RSS Builder by B!Soft</generator>
+    <title>PHP</title>
+    <link>http://localhost</link>
+    <description>Notícias do PHP</description>
+    <language>pt-pt</language>
+    <managingEditor>aaa@bbb.pt</managingEditor>
+    <copyright>PHP-6</copyright>
+    <image>
+      <title>PHP</title>
+      <link>http://localhost</link>
+      <url>localhost/caps_php6/rss/xml.gif</url>
+      <width>10</width>
+      <height>20</height>
+    </image>
+    <item>
+      <title>PHP6</title>
+      <pubDate>Tue, 13 Mar 2007 11:00:11 GMT</pubDate>
+      <link>localhost/caps_php6/rss/php6_new.html</link>
+      <author>autor</author>
+      <comments>notícias e comentários ao PHP</comments>
+      <category>web</category>
+      <description><![CDATA[Previsão de release 2007]]></description>
+    </item>
+    <item>
+      <title>Melhorias na segurança do PHP</title>
+      <pubDate>Tue, 13 Mar 2007 11:00:39 GMT</pubDate>
+      <link>http://localhost/caps_php6/rss/php6_directivas.html</link>
+      <author>autor 2</author>
+      <description><![CDATA[Algumas das novas directivas PHP terão uma nova designação]]></description>
+    </item>
+    <item>
+      <title>Novas funcionalidades no PHP</title>
+      <pubDate>Tue, 13 Mar 2007 10:58:48 GMT</pubDate>
+      <link>localhost/caps_php6/rss/php6_func.html</link>
+      <author>autor 1</author>
+      <description><![CDATA[Serão introduzidas novas funcionalidades e suporte nativo]]></description>
+    </item>
+  </channel>
+</rss>

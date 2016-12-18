@@ -1,0 +1,134 @@
+* {
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+/* general */
+a {
+	color:#777;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#333;
+	text-decoration:none;
+}
+
+/* body */
+body {
+	background:#fafafa;
+	color:#555;
+	font:1.0em Arial, Helvetica, "bitstream vera sans", sans-serif;
+}
+
+/* header */
+header {
+    padding-top: 10px;
+	border-bottom:1px solid #999;
+	height:100px;
+	margin:0 auto; /* centra cabeçalho */
+	width:960px;
+}
+
+header h1 {
+	color:#888;
+	font-size:300%;
+	letter-spacing:-3px;
+	text-align:right;
+	padding:5px;
+	margin-bottom:-20px;
+}
+
+header h2 {
+	color:#CCC;
+	font-size:200%;
+	letter-spacing:-2px;
+	text-align:right;
+}
+
+
+/* navigation */
+nav {
+	background:#fafafa;
+	border-right:1px solid #999;
+	margin:0 auto;
+	width:960px;	/* largura do meu */
+	height:40px;	/* altura do menu */
+	list-style:none;
+    margin-bottom: 30px;
+}
+nav li {
+	border-left:1px solid #999;
+	float:left;		/* coloca os elementos na horizontal */
+	width:150px;
+	list-style:none;
+}
+nav a {
+	color:#555;
+	display:block;
+	line-height:40px;
+	text-align:center;
+}
+nav a:hover {
+	background:#e3e3e3;
+	color:#555;
+}
+nav .active {
+	background:#e3e3e3;
+	color:#777;
+}
+
+
+/* content */
+#content {
+	height:auto;   /* importante para flexibilizar a altura do DIV */
+	margin:0 auto;
+	padding:0 0 20px;
+	width:960px;
+}
+#content h1 {
+	border-bottom:1px dashed #999;
+	font-size:1.7em;
+	margin: 50px 0 30px 0;
+}
+#content p {
+	padding:20px 20px 0;
+    margin-bottom: 10px;
+	font-size: 1.2em;
+}
+
+/* table */
+table {
+    width: 75%;
+	margin-left: 20px;
+}
+table td {
+    text-align: left;
+}
+table .col{
+    width: 100px;
+	padding-bottom: 10px;
+}
+
+/* form */
+form input{
+	font-family: serif;
+	font-size: 1.2em;
+	border: 1px solid #999;
+}
+
+/* footer */
+footer {
+	border-top:1px solid #999; 
+	height:50px;
+	margin:0 auto;
+	padding:10px;
+	text-align:center;
+	width:960px;
+}
+
+.erro {
+	font-weight: bold;
+	color: #C00
+}

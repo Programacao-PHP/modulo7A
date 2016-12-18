@@ -1,0 +1,4 @@
+maria|maria@aqui.pt|28|
+manuel|manuel@acola.pt|27|
+albino|albino@alem.pt|22|
+andreia|andreia@plj.uk|32|

@@ -1,0 +1,20 @@
+<?php
+session_start();
+$marca=md5(uniqid(rand(),TRUE));
+$SESSION['marca']=$marca;
+$SESSION['marca_t']=time();
+?>
+
+<form action="php_CSRF.php" method="POST">
+<input type="hidden" name="marca" value="<?php echo $token; ?>" />
+<p>Item:
+<select name="Livro">
+<option name="Os Maias">Os Maias</option>
+<option name="Lusiadas">Os Lusiadas</option>
+<option name="Amor de perdição">Amor de perdição</option>
+</select><br/>
+<BR><BR>
+Quantidade:
+<br><input type="text" name="Quantidade" /></p></br>
+<p><input type="submit" value="Compra" /></p>
+</form>

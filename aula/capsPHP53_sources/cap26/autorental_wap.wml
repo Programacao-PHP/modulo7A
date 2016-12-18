@@ -1,0 +1,40 @@
+<?php
+	header ("Content-type: text/vnd.wap.wml");
+	echo "<?xml version=\"1.0\"?>";
+	echo "<!DOCTYPE wml PUBLIC \"-//PHONE.COM//DTD WML 1.1//EN\" \"http://www.phone.com/dtd/wml11.dtd\" >";
+?>
+<wml> 
+    <card id="autorent" title="AutoRental WAP"> 
+	<?php
+		if(($conn = mysql_connect("localhost", "", ""))<0) {
+			echo "Erro ao ligar a Base de Dados...";
+		} else {
+			if(mysql_select_db("autorental", $conn)==false) {
+				echo "Erro ao ligar a Base de Dados...";
+			} else {
+				$sql = "select * from veiculo";
+				$resultado = mysql_query($sql, $conn);
+				$n=0;
+				while(mysql_fetch_row($resultado)) {
+					echo "<p>Veiculo $n</p>";
+					echo "<p>";
+					echo "Matricula = ";
+					echo mysql_result($resultado, $n, "matricula");
+					echo "</p><p>";
+					echo "Classe = ";
+					echo mysql_result($resultado, $n, "classe");
+					echo "</p><p>";
+					echo "Marca = ";
+					echo mysql_result($resultado, $n, "marca");
+					echo "</p><p>";
+					echo "Modelo = ";
+					echo mysql_result($resultado, $n, "modelo");
+					echo "</p>";
+					$n++;
+				}
+				mysql_close($conn);
+			}
+		}
+	?>
+     </card> 
+</wml> 

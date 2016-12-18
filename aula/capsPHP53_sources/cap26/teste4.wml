@@ -1,0 +1,15 @@
+<?php
+	header ("Content-type: text/vnd.wap.wml");
+	echo "<?xml version=\"1.0\"?>";
+	echo "<!DOCTYPE wml PUBLIC \"-//PHONE.COM//DTD WML 1.1//EN\" \"http://www.phone.com/dtd/wml11.dtd\" >";
+?>
+<wml><card id="cart1">
+<p>A data e hora actual e'
+<?php
+$today = date("F j, Y, g:i a");
+echo $today;
+?>
+</p>
+</card>
+</wml>
+

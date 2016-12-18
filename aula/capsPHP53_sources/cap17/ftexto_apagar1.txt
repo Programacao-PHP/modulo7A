@@ -1,0 +1,3 @@
+ficheiro elaborado para testes de PHP
+
+este ficheiro é para apagar

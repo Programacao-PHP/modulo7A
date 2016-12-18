@@ -1,0 +1,1 @@
+D:\xampp\apache\bin\php.ini,zend_optimizer.optimization_level,15,0

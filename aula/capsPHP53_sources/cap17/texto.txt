@@ -1,0 +1,2 @@
+ficheiro elaborado para testes de PHP.
+Este ficheiro é só para testes

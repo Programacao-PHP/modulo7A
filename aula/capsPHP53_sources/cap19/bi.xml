@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<!DOCTYPE BI SYSTEM "bilhete_de_identidade.dtd">
+
+<BI>
+	<NUMERO-BI>
+		<NUMERO>10033445</NUMERO>
+		<DIGITO-CONTROLO>3</DIGITO-CONTROLO>
+	</NUMERO-BI>
+	
+	<EMISSAO>
+		<DATA>22/09/2003</DATA>
+		<LOCAL>Lisboa</LOCAL>
+	</EMISSAO>
+	<NOME>Carlos Jose Corredoura Serrao</NOME>
+	<FILIACAO>
+		<PAI>Carlos Manuel Serrao</PAI>
+		<MAE>Maria Norlinda dos Santos Corredoura Serrao</MAE>
+	</FILIACAO>
+	<NATURALIDADE>
+		<FREGUESIA>S. Sebastiao da Pedreira</FREGUESIA>
+		<CONCELHO>Lisboa</CONCELHO>
+	</NATURALIDADE>
+	<RESIDENCIA>
+		<FREGUESIA>Feijo</FREGUESIA>
+		<CONCELHO>Almada</CONCELHO>
+	</RESIDENCIA>
+	<DATA-DE-NASCIMENTO>06/01/1973</DATA-DE-NASCIMENTO>
+	<ESTADO-CIVIL>Casado</ESTADO-CIVIL>
+	<ALTURA>1,78</ALTURA>
+	<VALIDADE>05/05/2009</VALIDADE>
+</BI>
+

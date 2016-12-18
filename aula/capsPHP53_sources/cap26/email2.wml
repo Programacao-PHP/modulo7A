@@ -1,0 +1,17 @@
+<?php
+	header ("Content-type: text/vnd.wap.wml");
+	echo "<?xml version=\"1.0\"?>";
+	echo "<!DOCTYPE wml PUBLIC \"-//PHONE.COM//DTD WML 1.1//EN\" \"http://www.phone.com/dtd/wml11.dtd\" >";
+?>
+<wml> 
+    <card id="email2" title="Enviar Email"> 
+	<p> 
+	<?php
+		if(mail($Email, $Titulo, $Mensagem)==true)
+		   echo "Mensagem enviada com sucesso para $Email";
+		else
+		   echo "Envio de mensagem para $Email falhou.";
+	?>
+	</p> 
+     </card> 
+</wml> 

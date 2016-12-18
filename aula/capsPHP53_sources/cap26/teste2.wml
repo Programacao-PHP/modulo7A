@@ -1,0 +1,8 @@
+<?php
+	header ("Content-type: text/vnd.wap.wml");
+	echo "<?xml version=\"1.0\"?>";
+	echo "<!DOCTYPE wml PUBLIC \"-//PHONE.COM//DTD WML 1.1//EN\" \"http://www.phone.com/dtd/wml11.dtd\" >";
+	echo "<wml><card id=\"cart1\">";
+	echo "<p>Ola' mundo !!! Este e' o primeiro card produzido pelo PHP.</p>";
+	echo "</card></wml>";
+?>

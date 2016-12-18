@@ -1,0 +1,22 @@
+<html>
+<head></head>
+<body
+    <form action="php_filter.php" method="post" >
+    Nome: <input name="nome" size="50"><br />
+    Email: <input name="email" size="50"><br />
+    Homepage: <input name="homepage" size="50"><br />
+    Idade: <input name="idade" size="4"><br />
+    Vencimento: <input name="vencimento" size="50"><br />
+    Linguagem predilecta:
+    <select name="favoritos[]" size="6" multiple>
+        <option value="C++">C++</option>
+        <option value=".Asp">ASP</option>
+        <option value="Perl">PERL</option>
+        <option value="Ruby on rails">RubyonR</option>
+        <option value=".Net">.NET</option>
+        <option value="PHP">PHP</option>
+    </select><br />
+    <input type="submit" name="submit" value="processa">
+    </form>
+</body>
+</html>

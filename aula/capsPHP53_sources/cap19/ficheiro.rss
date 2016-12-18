@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<rss version='2.0'>
+<channel>
+<generator>feito pelo PHP</generator>
+<title>PHP</title>
+<link>http://localhost</link>
+<description>Not�cias do PHP</description>
+<language>pt-pt</language>
+<image>
+<title>PHP</title>
+<link>http://localhost</link>
+<url>localhost/caps_php6/rss/xml.gif</url>
+<width>10</width>
+<height>20</height>
+</image>
+<item>
+<title>PHP6</title>
+<pubDate>2007-07-19 11:18:47</pubDate>
+<link>localhost/caps_php6/rss/php6_new.html</link>
+<comments>notícias e comentários ao PHP</comments>
+<description>Previsão de release 2007</description>
+</item>
+<item>
+<title>Melhorias na segurança do PHP</title>
+<pubDate>2007-07-19 11:20:44</pubDate>
+<link>localhost/caps_php6/rss/php6_directivas.html</link>
+<comments></comments>
+<description>Algumas das novas directivas PHP terão uma nova designação</description>
+</item>
+<item>
+<title> Novas funcionalidades no PHP</title>
+<pubDate>2007-07-19 11:24:16</pubDate>
+<link>localhost/caps_php6/rss/php6_func.html</link>
+<comments></comments>
+<description>Serão introduzidas novas funcionalidades e suporte nativo</description>
+</item>
+</channel>
+</rss>
